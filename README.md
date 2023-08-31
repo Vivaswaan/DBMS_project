@@ -12,7 +12,7 @@ For login:
 (1, '1123456')
 
 
-<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/3cd09c6a-1aad-4160-8fae-c3a67f33c958">
+<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/4363e394-f27b-4132-89f1-c9661ccc3435">
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/92051148-fa35-43e9-9f4e-e6de595ac5ff">
 
