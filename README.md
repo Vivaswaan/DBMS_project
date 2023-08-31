@@ -4,8 +4,10 @@ Online Hosted at http://stationaryfactory.wuaze.com/
 
 For local hosting download zip file on your system
 
-A simple project for managers who will have to login using id and password.
-They can then view products, dealers and employees. They can update products and add dealers and employees.
+A simple DBMS project for factory management.
+Here we can view the details of various products, daily records of sales and production in the factory and the dealers that are associated with it.
+We can also add new products and dealers required information.
+We can also update information of products and daily records.
 
 For login: 
 (Employee id, Password) => 
@@ -22,7 +24,6 @@ For login:
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/ab71f6af-3023-4964-a3c9-7e5ebd5586b3">
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/322e804f-996e-4885-b3e6-848edd6522c7">
-
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/498a8904-2454-4075-927a-fb90ec88eaec">
 
