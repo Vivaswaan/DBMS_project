@@ -17,7 +17,12 @@ For login:
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/c189f852-d374-42bb-a33e-23cbf021eb0a">
 
-<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/35d48a7b-df4a-4692-8d05-9791fcaebbb5">
+<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/f39e7a0a-fb00-4cd7-bb03-fdceb0eb89b5">
+
+<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/ab71f6af-3023-4964-a3c9-7e5ebd5586b3">
+
+<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/322e804f-996e-4885-b3e6-848edd6522c7">
+
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/498a8904-2454-4075-927a-fb90ec88eaec">
 
