@@ -22,7 +22,7 @@ include "header.php";
 date_default_timezone_set('Asia/Kolkata');
 $today = date('d-m-Y');
 
-echo "<p class='h4 my-3 text-center' style='color: #4d3d01; font-family: sans serif; font-size: 2.5rem'>All Products</p><hr>";
+echo "<p class='h4 my-3 text-center' style='color: #4d3d01; font-family: sans serif; font-size: 2.0rem;'>All Products</p><hr>";
 ?>
 
 <div class="container">
