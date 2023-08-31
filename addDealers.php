@@ -20,7 +20,7 @@ include "sideNav.php";
 include "header.php";
 
 echo "
-<p class='h4 text-center my-3 '>Add New Dealer</p><hr>";
+<p class='h4 text-center my-3 ' style='color: #4d3d01; font-family: sans serif; font-size: 2.0rem;'>Add New Dealer</p><hr>";
 
 if(isset($_POST['submit'])){
 
