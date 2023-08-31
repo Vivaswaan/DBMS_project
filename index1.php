@@ -20,7 +20,7 @@ include "sideNav.php";
 include "header.php";
 
 ?>
-<p class='h4 my-3 text-center' style='color: #4d3d01; font-family: sans serif; font-size: 2.5rem'>Products</p><hr>
+<p class='h4 my-3 text-center' style='color: #4d3d01; font-family: sans serif; font-size: 2.0rem;'>Products</p><hr>
 <div class="container">
     <table class='table table-warning'>
         <thead class='table-danger'>
