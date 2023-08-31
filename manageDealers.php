@@ -20,7 +20,7 @@ include "header.php";
 
 ?>
 
-<p class="h4 my-3 text-center">Manage Dealers</p>
+<p class="h4 my-3 text-center"  style='color: #4d3d01; font-family: sans serif; font-size: 2.0rem;'>Manage Dealers</p>
 <hr>
 
 <div class="container">
