@@ -34,7 +34,7 @@ if (isset($_POST['search'])) {
 }
 
 
-echo "<p class='h4 my-3 text-center'>Production Record of <b>$today</b></p><hr>";
+echo "<p class='h4 my-3 text-center'  style='color: #4d3d01; font-family: sans serif; font-size: 2.0rem'>Production Record of $today</p><hr>";
 
 if (isset($_POST['update_production'])) {
 
