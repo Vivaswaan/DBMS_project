@@ -1,4 +1,3 @@
-<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/3cd09c6a-1aad-4160-8fae-c3a67f33c958"># dbms_project
 Project for DBMS in my 3rd Sem
 
 Online Hosted at http://stationaryfactory.wuaze.com/
@@ -12,6 +11,8 @@ For login:
 (Employee id, Password) => 
 (1, '1123456')
 
+
+<img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/3cd09c6a-1aad-4160-8fae-c3a67f33c958"># dbms_project
 
 <img width="960" alt="image" src="https://github.com/Vivaswaan/DBMS_project/assets/114609093/92051148-fa35-43e9-9f4e-e6de595ac5ff">
 
