@@ -19,6 +19,61 @@ include "connection/connect.php";
 include "sideNav.php";
 include "header.php";
 
+if (isset($_POST['addProduct'])) {
+
+    $productsName = mysqli_real_escape_string($con, $_POST['productsName']);
+    $price = mysqli_real_escape_string($con, $_POST['price']);
+
+
+    $product = "SELECT * FROM products WHERE `p_name` = '$productsName' ";
+
+    $query = mysqli_query($con, $product);
+
+    if (mysqli_num_rows($query) > 0) {
+
+        echo "<div class='container'>
+				<div class='row'>
+				<h4 style='background: #d50000; color:#ffffff' class='col-md-12 py-3 btn btn-block mb-4'>This Product has been Already Added!!!</h4></div></div>";
+    } else {
+        $add_products = "INSERT INTO products ( p_name, unit_price) 
+				
+						VALUES ('$productsName', '$price')";
+        mysqli_query($con, $add_products);
+
+        echo "<div class='container'>
+				<div class='row'>
+				<div style='background: #0091EA; color:#ffffff' class='col-md-12 py-3 btn  btn-block mb-4'> Product Added Successfully.</div></div></div>";
+
+
+    }
+
+}
+
+if (isset($_POST['update_product_info'])){
+
+    for ($i = 0; $i < sizeof($_POST['p_id']); $i++) {
+
+        $p_id = mysqli_real_escape_string($con, $_POST['p_id'][$i]);
+        $p_name = mysqli_real_escape_string($con, $_POST['productsName'][$i]);
+        $u_price = mysqli_real_escape_string($con, $_POST['price'][$i]);
+
+        $update_prod_info = "UPDATE products SET p_name = '$p_name', unit_price = '$u_price' WHERE id = '$p_id'";
+
+        mysqli_query($con, $update_prod_info);
+
+
+    }
+    echo "<div class='container'>
+			<div class='row'>
+				<div style='background: #0091EA; color:#ffffff' class='col-md-12 py-3 btn  btn-block mb-4'> Product Info Updated Successfully .
+			    </div>
+			</div>
+		  </div>";
+
+
+
+}
+
 date_default_timezone_set('Asia/Kolkata');
 $today = date('d-m-Y');
 
@@ -28,6 +83,8 @@ echo "<p class='h4 my-3 text-center' style='color: #4d3d01; font-family: sans se
 <div class="container">
     <div class="row">
         <div class="col-md-12 pb-2">
+        <a href='addProducts.php' class="mb-3 float-right btn btn-success">Add Products</a>
+            <a href='updateProducts.php' class="mb-3 mx-1 float-right btn btn-success">Update Products Info</a>
             <table class='table table-warning'>
                 <thead class='table-danger'>
                 <tr>
